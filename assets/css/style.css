@@ -1,0 +1,51 @@
+.infoFriend{
+    height: 800px;
+    width: 300px;
+    background-color:#566ef4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgFrined{
+    width: 150px;
+    height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 50px 10px  0px 10px ;
+ 
+}
+.FrinedName{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.messages{
+    height: 80vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid #566ef4;
+
+}
+.messages-item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background-color: #293477;
+    color: #fff;
+    width:  100%;
+    height: 30px;
+}
+.contentMsg{
+    margin-left: 5px;
+    
+    display: flex;
+}
+.contentMsgR{
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
